@@ -6,6 +6,7 @@ import HomePage from './pages/homepage/homepage.component';
 
 import HousesPage from './pages/houses/houses.component';
 import Header from './components/header/header.component';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/houses' component={HousesPage} />
+        <Route path='/signin' component={SignInAndSignUpPage} />        
       </Switch>
     </div>
   );
